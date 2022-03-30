@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: lappy
+Bundle-Name: lappy Reddeer Test
+Bundle-Version: 1.0.0.20220330-1206
+Require-Bundle: org.jboss.reddeer.go
+Bundle-ManifestVersion: 2
+Bundle-Activator: tcs.Activator
+Bundle-RequiredExecutionEnvironment: J2SE-1.5,JavaSE-1.6
+

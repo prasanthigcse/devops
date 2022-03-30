@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='lappy' version='1.0.0.20220330-1206' singleton='false'>
+    <update id='lappy' range='[0.0.0,1.0.0.20220330-1206)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='lappy Reddeer Test'/>
+      <property name='maven-groupId' value='tcs'/>
+      <property name='maven-artifactId' value='lappy'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='lappy' version='1.0.0.20220330-1206'/>
+      <provided namespace='osgi.bundle' name='lappy' version='1.0.0.20220330-1206'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='osgi.bundle' name='org.jboss.reddeer.go' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='lappy' version='1.0.0.20220330-1206'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: lappy&#xA;Bundle-Version: 1.0.0.20220330-1206&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='osgi.bundle' id='lappy' version='1.0.0.20220330-1206'>
+    <properties size='5'>
+      <property name='artifact.size' value='4143'/>
+      <property name='download.size' value='4143'/>
+      <property name='maven-groupId' value='tcs'/>
+      <property name='maven-artifactId' value='lappy'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+</artifacts>
